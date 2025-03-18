@@ -2,6 +2,8 @@ from api_file import some_api_func
 from auth_file import some_auth_func
 from database_file import some_database_func
 
+def some_ui_func():
+    print('this is some ui function: 3rd edition')
 
 def some_main_func(string: str):
     print(f'this is main function: {some_main_func_dependency(string)}')
