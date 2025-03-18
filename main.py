@@ -1,5 +1,6 @@
 from api_file import some_api_func
 from auth_file import some_auth_func
+from database_file import some_database_func
 
 
 def some_main_func(string: str):
@@ -14,3 +15,4 @@ if __name__ == '__main__':
 
     #auth_file test
     some_auth_func('Username', "12324341")
+    some_database_func()
