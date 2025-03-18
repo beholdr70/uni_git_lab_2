@@ -8,4 +8,4 @@ if __name__ == '__main__':
     some_main_func()
 
     #auth_file test
-    some_auth_func('Username')
+    some_auth_func('Username', "12324341")
