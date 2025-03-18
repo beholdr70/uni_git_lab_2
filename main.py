@@ -18,3 +18,6 @@ if __name__ == '__main__':
     #auth_file test
     some_auth_func('Username', "12324341")
     some_database_func()
+
+    #hotfix patch
+    some_ui_func()
